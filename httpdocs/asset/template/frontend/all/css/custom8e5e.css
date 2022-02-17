@@ -1,0 +1,132 @@
+html {
+    -webkit-text-size-adjust: none;
+    touch-action: manipulation;
+}
+
+#transferDetailsModal select {
+    padding: 0px;
+}
+
+
+/*------------ style for file-upload in transfer window -------------*/
+
+.dz-preview.dz-image-preview {
+    /*width: 100%;*/
+    /*margin: 0 30px; */
+    width: 150px;
+    margin: 5px 15px 25px 15px;
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #eee;
+}
+
+
+.dz-preview.dz-file-preview {
+    width: 150px;
+    margin: 5px 15px 25px 15px;
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #eee;
+}
+
+.dz-image {
+    /*width: 150px;
+    margin: 0 auto;*/
+    display: inline-block;
+    float: right;
+    border: 1px solid #eee;
+}
+
+.dz-details {
+    /*width: 150px;*/
+    margin: 0 auto;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.dz-success-mark {
+    display: none;
+    /*margin-left: 10px;*/
+    margin-top: 10px;
+    /*15px*/
+}
+
+.dz-error-mark {
+    display: none;
+    /*margin-left: 10px;*/
+    margin-top: 10px;
+    /*15px*/
+}
+
+.dz-remove {
+    display: inline-block;
+    /* height: 60px; */
+    /* line-height: 60px; */
+    position: relative;
+    /*top: -20px;*/
+    color: #ff0000;
+}
+
+
+/*------------ style for file-upload in transfer window -------------*/
+
+.pagination>li>span {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    color: #007bff;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+.rtl .pagination>li>span {
+    margin-right: -1px;
+    margin-left: 0;
+}
+
+.pagination>li>span,
+.pagination>li>a:hover,
+.pagination>li>a:focus {
+    color: var(--company-second-color);
+}
+
+.pagination>li:first-child span {
+    margin-left: 0;
+    border-top-left-radius: 0.45rem;
+    border-bottom-left-radius: 0.45rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.rtl .pagination>li:first-child span {
+    margin-right: 0;
+    border-top-right-radius: 0.45rem;
+    border-bottom-right-radius: 0.45rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.pagination>li:last-child span {
+    border-top-right-radius: 0.45rem;
+    border-bottom-right-radius: 0.45rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.rtl .pagination>li:last-child span {
+    border-top-left-radius: 0.45rem;
+    border-bottom-left-radius: 0.45rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.pagination>li.active>span,
+.pagination>li>span:hover,
+.pagination>li>span:focus {
+    color: #FFF !important;
+    background-color: var(--company-second-color) !important;
+    border-color: var(--company-second-color) !important;
+}

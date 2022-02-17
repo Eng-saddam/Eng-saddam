@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Tajawal-Medium';
+  src: url('Tajawal-Medium.eot');
+  src: url('Tajawal-Medium.woff2') format('woff2'),
+       url('Tajawal-Medium.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Tajawal-Medium';
+  src: url('Tajawal-Medium.woff') format('woff'),
+       url('Tajawal-Medium.ttf') format('truetype'),
+       url('Tajawal-Medium.svg#Dosis-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+

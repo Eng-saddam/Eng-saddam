@@ -1,0 +1,173 @@
+body{
+    font-family: 'Tajawal-Medium';
+}
+.btn-label-signout{
+    background: red;
+    color: #fff !important;
+    font-weight: 600;
+    cursor: pointer;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-label-signout:hover{
+    background: rgb(238, 69, 69);
+    border-color: red;
+}
+.scrolltop{
+    z-index: 99999;
+}
+.theme-light .menu-section-text{
+    font-weight: 900;
+}
+
+.dropdown_lg_custom{
+    height: calc(1.5em + 1rem + 2px);
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    border-radius: 0.5rem;
+}
+.form-group {
+    margin-bottom: 1.3rem;
+}
+.custom-file-label::after {
+    content: "اختيار الصورة" !important;
+}
+.sticky-header-title{
+    position: sticky;
+    top: 52px;
+    background: #ffff;
+    
+}
+
+@media only screen and (min-width: 600px) {
+    .table-responsive{
+        display: inline-table;
+    }
+  }
+
+  .image_select_class {
+      cursor: pointer;
+  }
+  .image_select_class img{
+    cursor: pointer;
+  }
+  .image_select_class span{
+    display: block;
+    cursor: pointer;
+  }
+  @media only screen and (max-width: 600px) {
+    .image_select_class span{
+        font-size: 10px;
+      }
+  }
+  .color_picker_class{
+      font-size: 20px;
+      border-color: #9c9c9c;
+      border-style: solid;
+      border-width: 2px;
+      cursor: pointer;
+      padding: 1px 2px 0px 2px;
+  }
+  .color_picker_class:hover{
+    border-color: #009aae;
+  }
+  .display_none_class{
+      display: none;
+  }
+  label[for=black] i{color: black !important;}
+  label[for=white] i{color: white !important;}
+  label[for=red] i{color: red !important;}
+  label[for=green] i{color: green !important;}
+  label[for=brown] i{color: brown !important;}
+  label[for=orange] i{color: orange !important;}
+  label[for=blue] i{color: blue !important;}
+  label[for=gray] i{color: gray !important;}
+  label[for=gold] i{color: gold !important;}
+  label[for=silver] i{color: silver !important;}
+  .form-check-inline{margin-bottom: 5px;}
+  .changes_btns{
+      left: auto;
+      right: 0;
+  }
+  html{
+      direction: ltr;
+  }
+  .dropdown-menu, .dropdown-submenu-menu{
+    left: auto !important;
+    right: -135px !important;
+}
+.todo_class_style{
+    margin-right: 5px;
+}
+.avatar-display{display: contents;}
+.requierd_field{color: red;font-weight:600;}
+.show_info_div{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 9;
+    cursor: pointer;
+  }
+  .show_info_div p{
+    display: none;
+    background: #fafafa;
+    padding: 10px;
+    position: absolute;
+    box-shadow: 0 3px 0px rgb(0 0 0 / 6%), 0 5px 12px rgb(0 0 0 / 22%);
+    right: 0;
+    top: 30px;
+    border-radius: 10px;
+    width: 235px;
+    z-index: 11;
+  }
+  .show_info_div i{
+    padding: 11px;
+    pointer-events: none;
+    color: #2196f3;
+  }
+  .remove_this_image{
+    position: absolute;
+    top: -15px;
+    left: 40px;
+    width: 20px;
+    height: 20px;
+  }
+  #add_new_option_btn{
+    height: 30px;
+    position: absolute;
+    left: -24px;
+    top: -15px;
+    z-index: 10;
+}
+.others_options_div{
+  display: none;
+  -webkit-transition: background-color 0.4s ease;
+  -moz-transition: background-color 0.4s ease;
+  -o-transition: background-color 0.4s ease;
+  transition: background-color 0.4s ease !important;
+  padding-top: 10px;
+}
+.remove_option_class{
+  height: 30px;
+  position: absolute;
+  left: -24px;
+  top: 16px;
+  z-index: 10;
+  color: #fff;
+  background-color: #f44336;
+  border-color: #f44336;
+}
+.avatar_myprofile_div{
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  position: relative;
+  text-align: center;
+  background: gray;
+}
+.avatar_myprofile_pic{
+  height: 100%;
+  width: 100%;
+  border-radius: inherit;
+  cursor: pointer;
+}
